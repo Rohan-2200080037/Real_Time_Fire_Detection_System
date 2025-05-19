@@ -136,7 +136,6 @@ if start_detection and not stop_detection:
             time.sleep(0.03)
 
         cap.release()
-        cv2.destroyAllWindows()
         st.success("✅ Webcam detection stopped.")
 
     elif source_option == "Upload Image":
