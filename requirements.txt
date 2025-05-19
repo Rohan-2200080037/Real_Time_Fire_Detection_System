@@ -8,18 +8,10 @@ matplotlib==3.10.3
 seaborn==0.13.2
 torch==2.7.0
 torchvision==0.22.0
-Pillow==11.2.1
+Pillow==10.3.0     # ✅ compatible with streamlit
 scipy==1.15.3
 psutil==7.0.0
 requests==2.32.3
 fsspec==2025.3.2
 filelock==3.18.0
 tqdm==4.67.1
-py-cpuinfo==9.0.0
-networkx==3.4.2
-sympy==1.14.0
-Jinja2==3.1.6
-MarkupSafe==3.0.2
-python-dateutil==2.9.0.post0
-PyYAML==6.0.2
-typing_extensions==4.13.2
