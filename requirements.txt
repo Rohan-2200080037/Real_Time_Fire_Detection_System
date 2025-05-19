@@ -1,12 +1,12 @@
-streamlit
-ultralytics
+streamlit==1.32.2
+ultralytics==8.1.22
 opencv-python-headless==4.9.0.80
-numpy
+numpy==1.24.4
 Pillow
 pandas
 matplotlib
 seaborn
-torch
+torch==2.0.1
 torchvision
 Pillow
 scipy
