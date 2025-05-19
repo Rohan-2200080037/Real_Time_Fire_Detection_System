@@ -1,32 +1,16 @@
-# Core Streamlit dependencies
 streamlit==1.33.0
-
-# Video streaming components (optional but compatible)
-streamlit-webrtc==0.45.0
-
-# YOLOv8 (Ultralytics)
-ultralytics==8.1.34  # Stable, widely supported YOLOv8 version
-
-# Computer vision
-opencv-python-headless==4.7.0.72  # Compatible with headless environments
-
-# Scientific & data manipulation
-numpy==1.24.3
-pandas==1.5.3
-scipy==1.10.1
-psutil==5.9.4
-requests==2.31.0
-filelock==3.13.1
-fsspec==2023.9.2
-
-# Torch and torchvision (compatible with ultralytics)
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
---index-url https://download.pytorch.org/whl/cpu
-
-# Image processing
-Pillow==9.5.0
-
-# Visualization
-matplotlib==3.7.1
-seaborn==0.12.2
+streamlit-webrtc
+ultralytics
+opencv-python-headless
+numpy
+Pillow
+pandas
+matplotlib
+seaborn
+torch
+torchvision
+scipy
+psutil
+requests
+fsspec
+filelock
